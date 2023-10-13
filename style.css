@@ -1,0 +1,71 @@
+*{
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    width: 100%;
+    background-color: cadetblue;
+    padding: 6rem;
+    border: 20px solid #13003c; 
+    height: 100vh;
+  }
+  i{
+    padding: 1rem;
+    font-size: 2rem;
+  }
+select{
+    padding: 0.6rem 0.4rem;
+    font-size: larger;
+    border-radius: 16px;
+    background-color: rgb(147, 158, 255);
+  }
+div.time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  div.time span{
+    font-size: 200%;
+  }
+  div.time .dates{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 150%;
+    align-items: center;
+  }
+  div.time .dates span{
+    background-color: #ffc700;
+    padding: 0.1rem;
+    font-size: 200%;
+    border: 2px solid #13003c;
+  }
+  .prayer-times{
+    padding-top: 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .prayer-times h2{
+    padding: 3rem 2rem;
+    background-color: #75d3e8c5;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.936);
+    border-radius: 40px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+   }
+   #active{
+    background-color: aquamarine;
+    box-shadow: 0 0 10px 2px rgba(223, 206, 79, 0.936);
+    border-radius: 40px;
+    width: 180px;
+    padding: 3rem 2rem;
+   }
+
+   
